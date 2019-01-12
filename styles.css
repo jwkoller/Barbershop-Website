@@ -1,0 +1,419 @@
+figure, ul, p{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-family: 'Ovo', serif;
+	color: rgb(255, 185, 58);
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: rgb(0, 0, 0);
+}
+header{
+	background-color: rgb(0, 0, 0);
+	width: 100%;
+	padding-bottom: 5px;
+}
+header nav{
+	text-align: center;
+	width: 100%;
+}
+header nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-family: 'Voltaire', sans-serif;
+	border: 1px solid rgb(226, 18, 18);
+	box-sizing: border-box;
+	margin: 0 5px 5px 5px;
+	border-radius: 20px;
+}
+header nav ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	color: rgb(252, 252, 252);
+}
+header nav ul li a:hover{
+	color: rgb(226, 18, 18);
+}
+header h4{
+	display: none;
+}
+header figure{
+	display: flex;
+}
+header figure img{
+	width: 100%;
+	min-width: 200px;
+}
+h1, h2, h3, h4, aside, figcaption, .home_section, .services h2, .contact h1,
+.barbers article h4, .services article p{
+	text-align: center;
+}
+h1, h2, h3, h4, figcaption, label, th{
+	color: rgb(216, 123, 8);
+	font-family: 'Voltaire', sans-serif;
+}
+.home_section{
+	background-image: url(images/flair/background_home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+.home_section h2, .services h2, .contact h1{
+	margin-top: 0;
+	padding: 10px;
+}
+.home_section h4{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+.home_text_box article{
+	padding: 10px;
+	text-align: left;
+	color: rgb(150, 98, 3);
+	font-family: 'Ovo', serif;
+	font-size: 1.25em;
+}
+.home_text_box article p{
+	padding-bottom: 10px;
+}
+.home_text_box aside ul, .maps_and_hours aside ul{
+	list-style: none;
+	color: rgb(255, 185, 58);
+	font-family: 'Ovo', serif;
+	margin-top: 0;
+	text-align: center;
+	font-size: 1.25em;
+	padding: 5px;
+}
+.home_text_box aside h2, .maps_and_hours aside h2{
+	margin-top: 0;
+}
+.front{
+	display: flex;
+}
+.front img{
+	width: 100%;
+	height: 100%;
+}
+.services{
+	background-image: url(images/inside/wide_angle_with_customer.jpg);
+	background-repeat: none;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.services h1{
+	font-size: 2em;
+	margin-top: 0;
+	padding: 5px;
+}
+.services table{
+	width: 100%;
+}
+.services table tr{
+	color: rgb(255, 185, 58);
+	font-size: 1.15em;
+}
+.services div{
+	width: 90%;
+	margin-left: 5%;
+}
+.services aside img{
+	width: 50%;
+	height: 50%;
+	margin-left: 0%;
+}
+.services article p{
+	padding: 10px 40px 10px 40px;
+}
+.hair_cuts, .shaves, .indulgent{
+	color: rgb(244, 196, 137);
+	font-family: 'Ovo', serif;
+	padding: 10px;
+}
+.barbers{
+	padding: 10px;
+	background-image: url(images/flair/barber_tools3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.barbers article h4:first-child{
+	margin-top: 0;
+}
+.barbers article h4:last-child{
+	margin-bottom: 0;
+}
+.barbers article p{
+	padding: 10px;
+}
+.barbers figure img{
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	border: 2px solid rgb(216, 123, 8);
+}
+.social_media{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+}
+.social_media iframe, .social_media a, .products figure img, .mvrck_products figure img,
+.services aside img{
+	border: 2px solid rgb(216, 123, 8) !important;
+	box-sizing: border-box;
+}
+.about, .contact{
+	background-image: url(images/flair/background_home.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.about figure{
+	display: flex;
+	justify-content: space-between;
+}
+.about figure img{
+	width: 100%;
+	height: 100%;
+}
+.about p, .products, .paul_mitchell{
+	padding: 10px;
+}
+.about p:first-child{
+	padding-top: 0;
+}
+.products{
+	background-image: url(images/products/Paul_Mitchel_Products.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.products figure{
+	width: 100%;
+}
+.products h2{
+	margin-top: 0;
+}
+.paul_mitchell figure img{
+	height: 100%;
+	width: 100%;
+}
+.paul_mitchell p{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.mvrck_products figure img{
+	margin-left: 25%;
+	width: 50%;
+	height: 50%;
+}
+.mvrck_products article{
+	margin-bottom: 20px;
+}
+.maps_and_hours{
+	padding: 15px;
+}
+.maps_and_hours article{
+	height: 50%;
+}
+.maps_and_hours aside{
+	margin-top: 20px;
+}
+.contact h2{
+	margin-top: 45px;
+}
+.contact p{
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 20px;
+}
+.customer_feedback{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: 500px;
+}
+.customer_feedback form{
+	width: 80%;
+}
+input[type=text], textarea{
+	color: rgb(252, 252, 252);
+	background-color: rgb(0,0, 0);
+	font-size: 1.25em;
+	font-family: 'Voltaire', sans-serif;
+}
+input[type=text]{
+	width: 60%;
+	margin: 10px 0;
+}
+input[type=submit]{
+	padding: 6px 10px;
+	background-color: rgb(216, 123, 8);
+	color: rgb(244, 196, 137);
+	border-radius: 10px;
+}
+input[type=submit]:hover{
+	background-color: rgb(244, 196, 137);
+	color: rgb(216, 123, 8);
+}
+textarea{
+	width: 100%;
+	height: 60%;
+}
+footer{
+	background-color: rgb(0, 0, 0);
+	color: rgb(252, 252, 252);
+}
+footer ul{
+	margin-left: 5%;
+	width: 90%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style: none;
+	font-size: .8em;
+}
+footer ul li a{
+	color: rgb(252, 252, 252);
+	text-decoration: none;
+}
+footer ul li a:hover{
+	color: rgb(226, 18, 18);
+}
+/*-----start of 560px-----*/
+@media only screen and (min-width: 560px){
+	header{
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-end;
+		position: fixed;
+		top: 0;
+	}
+	header figure{
+		width: 40%;
+	}
+	section{
+		margin-bottom: 56px;
+	}
+	.front, .services, .barbers, .about, .products, .contact{
+		margin-top: 161px;
+	}
+	.home_text_box article{
+		width: 60%;
+		margin-right: 10px;
+	}
+	.home_text_box{
+		display: flex;
+		justify-content: space-around;
+	}
+	.services table{
+		width: 60%;
+	}
+	.hair_cuts, .shaves, .indulgent{
+		display: flex;
+		justify-content: space-between;
+		font-size: 1.25em;
+	}
+	.services table{
+		width: 60%;
+	}
+	.services aside{
+		width: 30%;
+		border: 2px solid rgb(216, 123, 8);
+	}
+	.services aside img{
+		display: flex;
+		width: 100%;
+		height: 100%;
+		margin-left: 0;
+	}
+	.barbers{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.barbers figure img{
+		width: 100%;
+		height: 100%;
+		margin-left: 0;
+	}
+	.barbers article{
+		width: 30%;
+	}
+	.about_text{
+		columns: 2;
+	}
+	.about p:first-child{
+		padding-top: 0;
+	}
+	.mvrck_products figure img{
+		width: 100%;
+		height: 100%;
+		margin-left: 0;
+	}
+	.products article{
+		width: 30%;
+	}
+	.mvrck_products{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.maps_and_hours{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		height: 450px;
+		padding: 15px;
+	}
+	.maps_and_hours article{
+		width: 50%;
+		height: 100%;
+	}
+	.maps_and_hours aside{
+		width: 40%;
+		margin-top: 0;
+	}
+	footer{
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+	}
+}	/*end of 560px*/
+@media only screen and (min-width: 628px){
+	section{
+		margin-bottom: 38px;
+	}
+}
+@media only screen and (min-width: 724px){
+	header h4{
+		display: block;
+		color: rgb(252, 252, 252);
+	}
+	header nav ul{
+		align-items: flex-end;
+	}
+}	/*end of 710px*/
+@media only screen and (min-width: 870px){
+	header nav ul{
+		font-size: 1em;
+	}
+	.home_text_box article{
+		font-size: 1.25em;
+	}
+}	/*end of 870px*/
